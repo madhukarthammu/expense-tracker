@@ -20,6 +20,8 @@
   .container {
     margin: 30px auto;
     width: 350px;
+    box-shadow: 2px 0px 10px 2px #ccc;
+    padding: 20px;
   }
   
   h1 {

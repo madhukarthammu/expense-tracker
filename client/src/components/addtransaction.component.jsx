@@ -37,14 +37,14 @@ export const AddTransaction = () => {
       <form onSubmit={handleSubmit}>
         <div className="form-control">
           <label htmlFor="text">Text</label>
-          <input type="text" value={text} onChange={handleText} placeholder="Enter text..." />
+          <input type="text" value={text} onChange={handleText} required placeholder="Enter text..." />
         </div>
         <div className="form-control">
           <label htmlFor="amount"
           >Amount <br />
               (negative - expense, positive - income)</label
           >
-          <input type="number" value={amount} onChange={handleAmount} placeholder="Enter amount..." />
+          <input type="number" value={amount} onChange={handleAmount} required placeholder="Enter amount..." />
         </div>
         <button className="btn" type="submit">Add transaction</button>
       </form>

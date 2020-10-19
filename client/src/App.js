@@ -6,6 +6,7 @@ import TransactionList from './components/transaction-list.component'
 import {AddTransaction} from './components/addtransaction.component'
 import {GlobalProvider} from './context/globalstate'
 
+
 function App() {
   return (
     <GlobalProvider>
